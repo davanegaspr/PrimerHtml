@@ -1,0 +1,25 @@
+#wrap{
+    display: grid;
+    /*grid-column: 2;*/
+    grid-template-columns: 120px
+}
+h1{
+    display: inline;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px;
+    order: 1;
+    background: yellow;
+    text-align:center;
+}
+.description{
+    color: red;
+    background : green;
+    order: 3;
+    text-align: center;
+}
+.otro{
+    background: violet;
+    order :2;
+    text-align: center;
+}
+
